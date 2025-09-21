@@ -1,0 +1,8 @@
+{
+  "name": "your-app-name",
+  "compatibility_date": "2025-09-21",
+  "main": "dist/_worker.js",
+  "site": {
+    "bucket": "dist/static"
+  }
+}
