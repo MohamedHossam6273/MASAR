@@ -1,0 +1,127 @@
+{
+    "story_id": "exodus_habitus",
+    "languages": ["en", "ar"],
+    "nodes": [
+      {
+        "node_id": "intro",
+        "text_en": "The corridor lights hummed like tired insects. Officer Jalen Kade tilted his head against the cold polymer wall and watched steam bead and run down the hull beneath the maintenance seams—tiny weather on a ship built to flee a dead planet. He kept his uniform collar loose... He sighed and pulled his coat closed before he straightened his shoulders—not because anyone watched, but because muscle remembered the posture of officers who were taken seriously.",
+        "text_ar": "همهمت أضواء الممر كحشرات متعبة. استند الضابط جالين كايد إلى جدار بوليمري بارد ونظر إلى البخار الذي يتقطر على الهيكل تحت دروز الصيانة — طقسٌ صغير على سفينة بُنيت لتهرب من كوكبٍ ميت. أبقى ياقة بدلته مرتخية... زفر وسحّ سترته قبل أن يعدل كتفيه — ليس لأن أحدًا يراقب، بل لأن العضلات تتذكّر وقفة الضباط الذين يُؤخَذون على محمل الجد.",
+        "image_url": "exodus_corridor_intro.jpg",
+        "choices": [
+          {
+            "choice_text_en": "Do the obvious small action: dust the pedestal and check under it.",
+            "choice_text_ar": "إجراء الفعل البديهي: نظف القاعدة وافحص ما تحتها.",
+            "next_node_id": "choiceA_obvious"
+          },
+          {
+            "choice_text_en": "Build a grand theory: pull shipwide logs and map suspects.",
+            "choice_text_ar": "تبني نظرية كبرى: فحص سجلات السفينة وخريطة المشتبه بهم.",
+            "next_node_id": "choiceA_theory"
+          }
+        ]
+      },
+      {
+        "node_id": "choiceA_obvious",
+        "text_en": "He runs a gloved finger along the pedestal and, beneath the base, catches the edge of a thermal slip—half pulled in. The print shows a maintenance call at 03:12 from Section D-27: 'Routine: secure museum pedestal; report seal integrity.' The call was logged under Lyra Voss, a third-shift tech. The slip smells faintly of coffee and the mineral tang of hull grease.",
+        "text_ar": "يمرر إصبعه المكسو بالقفاز على القاعدة ويشعر بحواف شريحة حرارية — نصف مدفوعة. الطباعة تشير إلى نداء صيانة في 03:12 من القسم D-27: «روتيني: تأمين قاعدة المتحف؛ تقرير تكامل الختم.» سُجل النداء باسم ليـرا فوس، فنية نوبة ثالثة. تفوح من الشريحة رائحة قهوة ولمسة معدن الشحوم.",
+        "image_url": "pedestal_slip.jpg",
+        "choices": [
+          {
+            "choice_text_en": "Forceful approach: demand answers from Lyra now.",
+            "choice_text_ar": "النهج القسري: إجبار ليـرا على الإجابة الآن.",
+            "next_node_id": "choiceB_force"
+          },
+          {
+            "choice_text_en": "Easy/trust approach: bring the synth-filter and ask calmly.",
+            "choice_text_ar": "نهج سهل/بناء ثقة: إحضار الفلتر وطلب الحديث بهدوء.",
+            "next_node_id": "choiceB_easy"
+          }
+        ]
+      },
+      {
+        "node_id": "choiceA_theory",
+        "text_en": "Jalen seeds a net across ship logs, finding three late-shift badges pinging near the museum this rotation. The profile suggests bored crew, a black-market chain moving sentimental artifacts. It’s tidy and satisfying on paper—but when presented, senior officers ask for proof. One badge belongs to Lyra Voss.",
+        "text_ar": "يمدّ جالين شبكة عبر سجلات السفينة، ويجد ثلاث بطاقات مرور للنوبات الأخيرة مرّت بالقرب من المتحف خلال هذه الدورة. الملف يشير إلى طاقم ممل وسلسلة سوق سوداء تتحرك بالتحف العاطفية. تبدو النظرية أنيقة ومُرضية على الورق — لكن الضباط الكبار يطلبون دليلاً. إحدى البطاقات تعود إلى ليـرا فوس.",
+        "image_url": "log_network.jpg",
+        "choices": [
+          {
+            "choice_text_en": "Confront Lyra publicly with suspicion.",
+            "choice_text_ar": "مواجهة ليـرا علنًا بالشك.",
+            "next_node_id": "choiceB_force"
+          },
+          {
+            "choice_text_en": "Attempt the small-step approach: deliver the filter, build rapport.",
+            "choice_text_ar": "محاولة نهج خطوة-بخطوة: تسليم الفلتر وبناء علاقة.",
+            "next_node_id": "choiceB_easy"
+          }
+        ]
+      },
+      {
+        "node_id": "choiceB_force",
+        "text_en": "He opens her locker; the bay grows quiet. The filter box is untouched. Lyra's eyes are cold; she files a complaint. The tech supervisor intervenes and logs a reprimand for improper conduct. A slip of paper later appears at the museum: 'Stop digging.'",
+        "text_ar": "يفتح خزانتها؛ يسكن الباي. صندوق الفلتر غير مُمَسّ. تحدّق ليـرا ببرود؛ تسجّل شكوى. يتدخل المشرف الفني ويسجل لفتة تأديبية لسلوك غير سليم. يظهر لاحقًا في المتحف ورقة صغيرة: «توقف عن الحفر.»",
+        "image_url": "locker_search.jpg",
+        "choices": [
+          {
+            "choice_text_en": "Public accusation at the memorial planning meeting.",
+            "choice_text_ar": "اتهام علني في اجتماع التخطيط للمراسم.",
+            "next_node_id": "choiceC_public"
+          },
+          {
+            "choice_text_en": "Calmly present the small evidence and ask for verification help.",
+            "choice_text_ar": "عرض الأدلة الصغيرة بهدوء وطلب مساعدة للتحقق.",
+            "next_node_id": "choiceC_calm"
+          }
+        ]
+      },
+      {
+        "node_id": "choiceB_easy",
+        "text_en": "Lyra accepts the filter with a half-smile. She tightens a calibration and, between clanks, tells Jalen she’s seen that varnish smear before. 'Check display cases in Cargo Three,' she says. 'Same mineral trace.' She doesn't volunteer motive, but the ice around her thaws a touch.",
+        "text_ar": "تقبل ليـرا الفلتر بنصف ابتسامة. تضبط معايرة، وبين طرقات الأدوات تقول لجالين إنها رأت ذلك اللطخ بالورنيش من قبل. «افحص حالات العرض في الشحن ثلاث»، تقول. «نفس الأثر المعدني.» لا تفصح عن الدافع، لكن الجليد من حولها يلين قليلًا.",
+        "image_url": "lyra_filter.jpg",
+        "choices": [
+          {
+            "choice_text_en": "Expose the suspect publicly at the memorial meeting.",
+            "choice_text_ar": "كشف المشتبه به علنًا في اجتماع الذكرى.",
+            "next_node_id": "choiceC_public"
+          },
+          {
+            "choice_text_en": "Verify prints and varnish in lab, then reveal (satisfying).",
+            "choice_text_ar": "التحقق من البصمات والورنيش في المختبر، ثم الكشف (مرضٍ).",
+            "next_node_id": "choiceC_verify"
+          }
+        ]
+      },
+      {
+        "node_id": "choiceC_public",
+        "text_en": "In the crowded hall, Jalen points and demands immediate action. The accused protests and calls for counsel. Records are messy and the Captain reprimands Jalen for rushing judgment. The memorial proceeds but under a cloud; morale dips. The real ledger errors go unnoticed in the commotion.",
+        "text_ar": "في القاعة المزدحمة، يشير جالين ويطالب باتخاذ إجراء فوري. المتّهم يحتج ويستدعي محاميًا. السجلات ملتبسة ويوبّخ الكابتن جالين لتسرعه في الحكم. تمضي الذكرى لكن تحت سحابة؛ ينخفض المعنويات. تستمر الأخطاء الدفتـرية الحقيقية دون ملاحظة وسط الضجيج.",
+        "image_url": "public_accusation.jpg"
+      },
+      {
+        "node_id": "choiceC_calm",
+        "text_en": "He gathers the slips and asks the lab to run a varnish assay. The lab’s test shows a mineral signature unique to a toolkit stored in Cargo Three. He presents the results to the planning committee, recommends restitution and targeted audits. The Captain nods; procedures are initiated. The memorial proceeds, the statuette returns, and the staff breathes easier.",
+        "text_ar": "يجمع الشرائح ويطلب من المختبر إجراء اختبار ورنيش. يبيّن الاختبار توقيعًا معدنيًا فريدًا من حقيبة أدوات مخزنة في الشحن ثلاث. يعرض النتائج على لجنة التخطيط، ويقترح تصحيحًا ومراجعات مستهدفة. يومئ الكابتن؛ تُبدأ الإجراءات. تمضي الذكرى، يعود التمثال، ويتنفس الطاقم براحة.",
+        "image_url": "calm_presentation.jpg"
+      },
+      {
+        "node_id": "choiceC_verify",
+        "text_en": "Technicians lift display cases in Cargo Three. Prints match a supply tech; ledger inconsistencies point to a middle manager. The team organizes restitution and policy fixes. At the memorial the statuette is returned; a child strokes the ship cat by the dais. Jalen straightens his shoulders, feeling small, honest pride.",
+        "text_ar": "يرفع الفنيون حالات العرض في الشحن ثلاث. تتطابق البصمات مع فني توريدات؛ تشير تناقضات الدفتر إلى مدير وسطي. ينظم الفريق تعويضات وإصلاحات سياسة. في الذكرى يُعاد التمثال؛ يداعب طفل القطة بجانب المنبر. يقوّي جالين كتفيه، شاعراً بفخرٍ صغير وصادق.",
+        "image_url": "verified_results.jpg"
+      },
+      {
+        "node_id": "ending_positive",
+        "text_en": "Because he practiced small, consistent habits—checking the obvious, earning trust through small favors, and verifying patiently—Jalen solves the case, exposes the ledger error, and restores order. He walks away straighter, a little warmer, and carries a quiet lesson: minor acts compound into change.",
+        "text_ar": "لأنه مارس عادات صغيرة ومتسقة — فحص الواضح، كسب الثقة بخدمات صغيرة، والتحقق بصبر — حل جالين القضية، كشف خطأ الدفتر، واستعاد النظام. يمضي وهو أكثر استقامةً وقليل الدفء، حاملاً درسًا هادئًا: الأفعال الصغيرة تتراكم لتصنع التغيير.",
+        "image_url": "ending_positive.jpg"
+      },
+      {
+        "node_id": "ending_negative",
+        "text_en": "Because he chased spectacle and ignored small, practical habits, the accusation collapses, the real problem persists elsewhere, and the memorial is marred. Jalen learns nothing but resentment; his posture is unchanged. The ship keeps drifting.",
+        "text_ar": "لأنه طارد المشهد وتجاهل العادات العملية الصغيرة، تنهار الاتهامات، يستمر المشكلة الحقيقية في مكان آخر، وتشوّه الذكرى. لا يتعلم جالين سوى المرارة؛ لم تتغير وقفته. تواصل السفينة انجرافها.",
+        "image_url": "ending_negative.jpg"
+      }
+    ]
+  }
+  

@@ -1,0 +1,145 @@
+{
+    "story_id": "atomic_habits_detective_case",
+    "languages": ["en", "ar"],
+    "nodes": [
+      {
+        "node_id": "intro",
+        "text_en": "Rain traced rivulets down the windowpane of Detective Rowan Vale’s office. Streetlamps flickered outside, casting long shadows over dusty files piled high on his desk. He flipped open the latest case folder—‘Missing: Portrait of Lady Morven’—and scoffed. Another stolen painting, another theatrical scheme. He’d seen bigger conspiracies, grander heists—but this? A portrait? He tapped ash from his cigarette, thinking how small this felt, how unworthy of his reputation.",
+        "text_ar": "نزل المطر بخطوطٍ متعرجةٍ على زجاج نافذة مكتب المحقّق روان فيل. المصابيح الشارعية تومض في الخارج، تلقي بظلالٍ طويلة على كُتبٍ مغبّشة مرتفعة على مكتبه. فتح ملف القضية الأخيرة — «مفقود: لوحة السيدة مورفن» — وسخر. لوحة مسروقة أخرى، مخططٌ تمثيلي آخر. لقد شهد مؤامراتٍ أكبر، سرقاتٍ أفخم — لكن هذه؟ لوحة؟ طرق رماد سيجارته وهو يفكر كم هي صغيرة هذه المسألة، كم هي لا تساوي سمعته.",
+        "image_url": "detective_office_intro.jpg",
+        "choices": [
+          {
+            "choice_text_en": "Examine the room for small, obvious signs.",
+            "choice_text_ar": "تفحّص الغرفة بحثًا عن علامات صغيرة وواضحة.",
+            "next_node_id": "choiceA_obvious"
+          },
+          {
+            "choice_text_en": "Sketch out a grand theory involving rival collectors.",
+            "choice_text_ar": "رسم نظرية كبرى تشمل جامعين منافسين.",
+            "next_node_id": "choiceA_theory"
+          }
+        ]
+      },
+      {
+        "node_id": "choiceA_obvious",
+        "text_en": "Rowan’s gaze drifted over the walls. One picture frame hung slightly crooked, nails tiny and dull. He stepped across the wooden floor, reaching to adjust the frame. Behind it, in the plaster, was a pinhole—not decayed, fresh. A thread of fabric caught in its edge. The painting’s signature had been cut, hidden under the frame-edge. A clue in the open.",
+        "text_ar": "ألقى روان بنظره عبر الجدران. إحدى الإطارات مائلة قليلاً، والمسامير صغيرة وباهتة. تقدّم عبر الأرضية الخشبية، ممدًّا يده ليُعدّل الإطار. خلفه، في الجص، كان ثقبٌ صغير — ليس قديماً، بل جديد. خيط نسيج عالق عند طرفه. تم قطع توقيع اللوحة، مختفٍ تحت حافة الإطار. دليلٌ في العلن.",
+        "image_url": "crooked_frame_clue.jpg",
+        "choices": [
+          {
+            "choice_text_en": "Carefully lift the frame to retrieve the hidden fragment.",
+            "choice_text_ar": "حرّك الإطار بعناية لاستخراج القطعة المخفية.",
+            "next_node_id": "choiceB_careful"
+          },
+          {
+            "choice_text_en": "Ignore it, favoring the more dramatic collector theory.",
+            "choice_text_ar": "تجاهل الأمر، مفضّلاً نظرية الجامعين الدرامية.",
+            "next_node_id": "choiceB_theory"
+          }
+        ]
+      },
+      {
+        "node_id": "choiceA_theory",
+        "text_en": "Rowan leaned back, rubbing the stubble on his chin. He imagined national auction houses, clandestine buyer’s agents, perhaps even an insider betrayal. The rain’s rhythm outside matched his pulse: big players, big drama. He dismissed the frame—it was probably a red herring, a small detail to distract the bold minds.",
+        "text_ar": "اتكأ روان إلى الوراء، يفرك ذقنه المتهالك. تخيّل بيوت مزادات وطنية، وكلاء مشتريين سريّين، ربما خيانة من الداخل. إيقاع المطر خارج النوافذ ضمّ نغمة مع نبضه: لاعبون كبار، دراما كبيرة. تجاهل الإطار — ربما خدعة، تفصيل صغير ليشغّل العقول الجريئة.",
+        "image_url": "detective_thinking_theory.jpg",
+        "choices": [
+          {
+            "choice_text_en": "Carefully lift the frame to retrieve the hidden fragment.",
+            "choice_text_ar": "حرّك الإطار بعناية لاستخراج القطعة المخفية.",
+            "next_node_id": "choiceB_careful"
+          },
+          {
+            "choice_text_en": "Follow leads about rival collectors instead.",
+            "choice_text_ar": "اتّبع خيوطًا عن جامعين منافسين بدلاً من ذلك.",
+            "next_node_id": "choiceB_collectors"
+          }
+        ]
+      },
+      {
+        "node_id": "choiceB_careful",
+        "text_en": "Rowan’s fingers closed around the tarnished pin; he eased the frame forward. The wood groaned, paint flaked. The fragment nodded free—an edge of canvas painted in a pastel corner, hidden. He breathed in—musty linen, wet wood. A whisper of craftsmanship he recognized. Little signs, tiny truths.",
+        "text_ar": "اضطّفت أصابع روان حول المسمار الأسود؛ دفع الإطار بلُطف إلى الأمام. أنين الخشب، تقشّر الطلاء. قطعه الإيهاء حرّة الآن — حافة قماش مصبوغة بلونٍ باستيلي في الزاوية، مخفية. استنشق هواءً — كتان عفن، خشب مُبلّل. همسة من البراعة عرفها. إشارات صغيرة، حقائق دقيقة.",
+        "image_url": "hidden_fragment.jpg",
+        "choices": [
+          {
+            "choice_text_en": "Visit the shy gallery curator for context.",
+            "choice_text_ar": "زيارة قيّم المعرض الخجول للسياق.",
+            "next_node_id": "choiceC_gallery"
+          },
+          {
+            "choice_text_en": "Continue chasing stories of collectors.",
+            "choice_text_ar": "استمرّ في مطاردة قصص الجامعين.",
+            "next_node_id": "choiceC_collectors"
+          }
+        ]
+      },
+      {
+        "node_id": "choiceB_theory",
+        "text_en": "Rowan’s mind buzzed with headlines: ‘High-stakes art theft’, ‘Collector espionage’. He left the frame crooked, eyes darting to distant news clippings pinned to corkboard: past thefts, vanished masterpieces. Plus the rumor of Lady Morven’s painting being linked to underground auctions. Big stories sold faster—but the office smelled stale, as though something necessary was being ignored.",
+        "text_ar": "ازدهر ذهن روان بعنوان عناوين كبرى: «سرقة فن عالية المخاطر»، «تجسس جامعين». ترك الإطار مائلاً، وعيونه تقفز إلى قصاصات أخبار معلقة على لوح الفلين: سرقات سابقة، روائع اختفت. بالإضافة إلى شائعة أن لوحة السيدة مورفن مرتبطة بمزادات سرية. القصص الكبيرة تُباع أسرع — لكن المكتب كان يعبق برائحة العفن، وكأن شيئًا ضروريًا يُهمَل.",
+        "image_url": "news_rumors_board.jpg",
+        "choices": [
+          {
+            "choice_text_en": "Visit the shy gallery curator for context.",
+            "choice_text_ar": "زيارة قيّم المعرض الخجول للسياق.",
+            "next_node_id": "choiceC_gallery"
+          },
+          {
+            "choice_text_en": "Interview shady contacts in auction circles.",
+            "choice_text_ar": "مقابلة جهات مشبوهة في دوائر المزادات.",
+            "next_node_id": "choiceC_contacts"
+          }
+        ]
+      },
+      {
+        "node_id": "choiceC_gallery",
+        "text_en": "The gallery curator, Ms. Lennox, hovers behind the counter, hands clasped. Her eyes flick toward the fragment Rowan shows her. She hesitates. Inside her office, rows of canvases lean, their backs dusty. She whispers that Lady Morven’s portrait was rumored to be painted over another work—and that the canvas itself belongs to someone else now. It is delicate info, offered in hushed tones.",
+        "text_ar": "تتمايل القيّمة المعرضسة، السيدة لينوكس، خلف العداد، يداها متشابكتان. تطير عيناها إلى الشظية التي يعرضها روان عليها. تتردّد. داخل مكتبها، صفوف من اللوحات تتكئ، ظهرها مغطى بالغبار. تهمس بأن لوحة السيدة مورفن يُشاع أنها بُرِئت فوق عمل آخر — وأن القماش نفسه يخص شخصًا آخر الآن. إنها معلومات دقيقة، مقدّمة بصوتٍ منخفض.",
+        "image_url": "gallery_setting.jpg",
+        "choices": [
+          {
+            "choice_text_en": "Ask for the original canvas owner’s name and documents.",
+            "choice_text_ar": "طلب اسم المالك الأصلي للوحة والمستندات.",
+            "next_node_id": "ending_positive"
+          },
+          {
+            "choice_text_en": "Ignore that, try to force Ms. Lennox to reveal more secrets.",
+            "choice_text_ar": "تجاهل ذلك، حاول إجبار السيدة لينوكس على معرفة مزيد من الأسرار.",
+            "next_node_id": "ending_negative"
+          }
+        ]
+      },
+      {
+        "node_id": "choiceC_collectors",
+        "text_en": "Rowan meets a collector in a shadowed warehouse. He lights a cigarette; smoke curls in the dim light. The collector smiles thinly, says he knows where Lady Morven’s painting went—but only if Rowan can bring proof of ownership, provenance, or some dramatic blackmail. Rowan sees the bait: high stakes, slippery slope, but nothing concrete yet.", 
+        "text_ar": "يلتقي روان بجامعٍ في مستودع مظلَّل. يشعل سيجارة؛ الدخان يتلوى في الضوء الخافت. يبتسم الجامع برقة، ويقول إنه يعرف إلى أين ذهبت لوحة السيدة مورفن — لكن فقط إذا أحضر روان إثبات الملكية، أو سندات الأصل، أو بعض الفضيحة الدرامية. يرى روان الطُعم: رهانات عالية، انزلاق زلق، لكن لا شيء ملموس حتى الآن.",
+        "image_url": "collector_warehouse.jpg",
+        "choices": [
+          {
+            "choice_text_en": "Try obtaining provenance documents quietly.",
+            "choice_text_ar": "حاول الحصول على مستندات الأصل بهدوء.",
+            "next_node_id": "ending_positive"
+          },
+          {
+            "choice_text_en": "Threaten the collector to force info.",
+            "choice_text_ar": "هدّد الجامع لإجباره على الكشف.",
+            "next_node_id": "ending_negative"
+          }
+        ]
+      },
+      {
+        "node_id": "ending_positive",
+        "text_en": "Rowan breathes out. The documents are old, creased, yet genuine. The canvas is traced to a workshop in Florence. The collector’s claim unravels in legal papers. Lady Morven’s portrait is returned. Rowan stands before it in the gallery, the lighting soft. He feels something unfamiliar: modest pride. Not in grand theories, but in the small actions—listing the details, asking quiet questions, following the thread of truth. Maybe this is what justice really is.",
+        "text_ar": "أطلَق روان نفسًا بطيئًا. المستندات قديمة، مثنية، لكنها حقيقية. يُرجع القماش إلى ورشة في فلورنسا. رمز الجامع يتفكّك في الأوراق القانونية. تُستعاد لوحة السيدة مورفن. يقف روان أمامها في المعرض، الضوء هادئ. يشعر بشيء غريب: فخر معتدل. ليس بسبب نظريات عظيمة، بل بسبب الأفعال الصغيرة—سرد التفاصيل، طرح الأسئلة الهادئة، تتبّع خيط الحقيقة. ربّما هذا هو ما تكون عليه العدالة حقًا.",
+        "image_url": "gallery_reveal.jpg"
+      },
+      {
+        "node_id": "ending_negative",
+        "text_en": "Rowan’s threats echo in empty corridors. The collector laughs—no proof arrives. The police stall. Days pass. The painting remains missing. Rowan’s reputation takes a blow. He lights another cigarette, letting his shoulders slump in defeat. He thinks of the clues he ignored, the simple steps he dismissed. Sometimes dramatic grand theories delight the mind—but leave the truth unresolved.",
+        "text_ar": "ترتد تهديدات روان في ممرات فارغة. يضحك الجامع — لا دليل يصل. الشرطة تؤجل. تمر الأيام. اللوحة تبقى مفقودة. تتضرر سمعة روان. يشعل سيجارة أخرى، ويترك كتفيه ينهاران في هزيمة. يفكّر في الأدلة التي تجاهلها، الخطوات البسيطة التي رفضها. أحيانًا تُمتع النظريات الكبرى الذهن — لكنها تترك الحقيقة دون حل.",
+        "image_url": "detective_defeat.jpg"
+      }
+    ]
+  }
+  

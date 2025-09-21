@@ -1,0 +1,12 @@
+{
+    "stories": [
+        {
+            "id": "lean_startup_quest",
+            "title": "The Lean Startup Quest",
+            "subtitle": "An aspiring entrepreneur learns to build a business by listening to customers.",
+            "cover_image_url": "https://picsum.photos/seed/lean-startup-cover/600/800",
+            "difficulty": "easy",
+            "learning_concepts": "MVP, Customer Feedback, Pivoting"
+        }
+    ]
+}

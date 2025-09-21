@@ -1,0 +1,135 @@
+{
+    "story_id": "win_friends_corporate_drama",
+    "languages": ["en", "ar"],
+    "nodes": [
+      {
+        "node_id": "intro",
+        "text_en": "The elevator doors glided open, and Ava Martinez stepped into the glossy lobby of Crestwood Global. Her heart thudded... She needed people on her side. And that meant learning how to connect—genuinely.",
+        "text_ar": "فتحت أبواب المصعد بانزلاقٍ ناعم، ودخلت آفا مارتينيز إلى بهو شركة كريستوود جلوبال اللامع... تحتاج إلى أن يكون الناس إلى جانبها. وهذا يعني تعلم كيف تتواصل — بصدق.",
+        "image_url": "office_lobby_intro.jpg",
+        "choices": [
+          {
+            "choice_text_en": "Argue with Nina, pointing out the inefficiencies.",
+            "choice_text_ar": "المجادلة مع نينا، مشيرة إلى عدم الكفاءة.",
+            "next_node_id": "choiceA_argue"
+          },
+          {
+            "choice_text_en": "Seek a point of agreement, praise Nina’s concerns first.",
+            "choice_text_ar": "البحث عن نقطة اتفاق، امتداح مخاوف نينا أولًا.",
+            "next_node_id": "choiceA_agreement"
+          }
+        ]
+      },
+      {
+        "node_id": "choiceA_argue",
+        "text_en": "Ava snaps when Nina mentions bandwidth. She pushes back hard—’these delays are costing us customer trust,’ she says, voice raised. Nina’s expression hardens. Others exchange side glances. The room feels colder.",
+        "text_ar": "تنفجر آفا حين تذكر نينا القدرة الاستيعابية. تدافع بشدة — ’هذه التأخيرات تكلفنا ثقة الزبائن’ تقول، بصوت عالٍ. يتصلّب وجه نينا. يتبادل الآخرون نظرات جانبية. الغرفة تصبح أبرد.",
+        "image_url": "meeting_tension.jpg",
+        "choices": [
+          {
+            "choice_text_en": "Plead for help from Marcus directly.",
+            "choice_text_ar": "الالتماس للمساعدة من ماركوس مباشرة.",
+            "next_node_id": "choiceB_plead"
+          },
+          {
+            "choice_text_en": "Show appreciation for Marcus’s past work first, seek collaboration.",
+            "choice_text_ar": "إظهار تقدير لعمل ماركوس السابق أولًا، طلب التعاون.",
+            "next_node_id": "choiceB_appreciation"
+          }
+        ]
+      },
+      {
+        "node_id": "choiceA_agreement",
+        "text_en": "Ava takes a breath. ‘Nina, I can see you’re juggling more than your fair share of projects. Your precision last quarter impressed me—especially how you handled client X under pressure. If you could spare thirty minutes, I’d love your idea on how Horizon might roll out more smoothly without overloading your team.’ Nina pauses. The tension diffuses slightly.",
+        "text_ar": "تأخذ آفا نفسًا. ’نينا، أرى أنك تتحملين أكثر من حصتك من المشاريع. دقّتك في الربع الماضي أبهرتني — خصوصًا كيف تعاملت مع العميل X تحت الضغط. إذا تكرّمتِ بمنحي ثلاثين دقيقة، أحب أن أسمع فكرتك حول كيف يمكن أن يُطلق هورايزون بسلاسة دون إرهاق فريقك.’ تتوقّف نينا للحظة. يتلاشّى التوتر قليلًا.",
+        "image_url": "agreement_building.jpg",
+        "choices": [
+          {
+            "choice_text_en": "Plead for help from Marcus directly.",
+            "choice_text_ar": "الالتماس للمساعدة من ماركوس مباشرة.",
+            "next_node_id": "choiceB_plead"
+          },
+          {
+            "choice_text_en": "Show appreciation for Marcus’s past work first, seek collaboration.",
+            "choice_text_ar": "إظهار تقدير لعمل ماركوس السابق أولًا، طلب التعاون.",
+            "next_node_id": "choiceB_appreciation"
+          }
+        ]
+      },
+      {
+        "node_id": "choiceB_plead",
+        "text_en": "Ava storms into Marcus’s office. ‘Marcus, I need your backing or Horizon dies in committee.’ Marcus sits back, arms crossed. He says nothing. Ava senses she’s pushed. She might have demanded respect, but she lost trust.",
+        "text_ar": "تهرع آفا إلى مكتب ماركوس. ’ماركوس، أحتاج لدعمك أو هورايزون سيموت في اللجنة.’ يجلس ماركوس إلى الوراء، ذراعاه متقاطعتان. لا يقول شيئًا. تشعر آفا أنها قد تجاوزت. ربما نالت بعض الاحترام، لكنها خسرت الثقة.",
+        "image_url": "plead_office.jpg",
+        "choices": [
+          {
+            "choice_text_en": "Criticize Brandon publicly in the meeting.",
+            "choice_text_ar": "انتقاد براندون علنيًا في الاجتماع.",
+            "next_node_id": "choiceC_criticize"
+          },
+          {
+            "choice_text_en": "Handle Brandon’s concerns with empathy and tact.",
+            "choice_text_ar": "التعامل مع مخاوف براندون بتعاطف وحس لبق.",
+            "next_node_id": "choiceC_empathy"
+          }
+        ]
+      },
+      {
+        "node_id": "choiceB_appreciation",
+        "text_en": "Ava knocks lightly on Marcus’s door, enters with a polite nod. ‘Marcus, I’ve always admired how you drive clarity in chaos. I was reviewing your last report on Q3 operations—it taught me a lot. I’d be honored if you’d mentor the Horizon proposal, even just outlining your thoughts with me.’ Marcus’s eyebrows rise. He leans forward, interest piqued.",
+        "text_ar": "تطرق آفا الباب برفق، تدخل بإيماءة مهذبة. ’ماركوس، لطالما أعجبت بكيف تدفع الوضوح في الفوضى. كنت أراجع تقريرك الأخير عن عمليات الربع الثالث — لقد علّمني الكثير. سيكون شرفًا لي لو ترعى اقتراح هورايزون، حتى إن فقط بوضع ملاحظاتك معي.’ ترتفع حاجبا ماركوس. يميل إلى الأمام، اهتمامه مستثار.",
+        "image_url": "appreciation_office.jpg",
+        "choices": [
+          {
+            "choice_text_en": "Criticize Brandon publicly in the meeting.",
+            "choice_text_ar": "انتقاد براندون علنيًا في الاجتماع.",
+            "next_node_id": "choiceC_criticize"
+          },
+          {
+            "choice_text_en": "Handle Brandon’s concerns with empathy and tact.",
+            "choice_text_ar": "التعامل مع مخاوف براندون بتعاطف وحس لبق.",
+            "next_node_id": "choiceC_empathy"
+          }
+        ]
+      },
+      {
+        "node_id": "choiceC_criticize",
+        "text_en": "In front of colleagues, Ava’s voice rings out: ‘Brandon, I hear you think Horizon has no deliverables. That reflects poor planning.’ The room stills; some eyes flash. Brandon’s lips tighten. Nina shifts. Marcus looks away. The damage is done.",
+        "text_ar": "أمام الزملاء، يرتفع صوت آفا: ’براندون، سمعت أنك تعتقد أن هورايزون لا يملك مخرجات. هذا يعكس تخطيطًا ضعيفًا.’ يسكن المكان؛ تومض بعض العيون. مشدودة شفاه براندون. تنقل نينا مكانها. ينظر ماركوس بعيدًا. الضرر قد حدث.",
+        "image_url": "public_confrontation.jpg",
+        "choices": [
+          {
+            "choice_text_en": "End: Negative - Project fails.",
+            "choice_text_ar": "النهاية: سلبية - المشروع يفشل.",
+            "next_node_id": "ending_negative"
+          }
+        ]
+      },
+      {
+        "node_id": "choiceC_empathy",
+        "text_en": "Later, in the hallway, Ava crosses paths with Brandon. She gently says, ‘Brandon, I saw your feedback. I’m curious — what deliverables would you want to see for Horizon to feel real?’ He pauses, surprised. They talk. She listens. He softens. A new understanding forms.",
+        "text_ar": "لاحقًا، في الردهة، تمر آفا بجانب براندون. تقول بلطف: ’براندون، رأيت ملاحظاتك. أنا فضولية — ما المخرجات التي تود أن تراها حتى يشعر هورايزون بأنه شيء واقعي؟’ يتوقف، متفاجئ. يتحدثان. تستمع. يلين. فهم جديد يتكوّن.",
+        "image_url": "empathy_conversation.jpg",
+        "choices": [
+          {
+            "choice_text_en": "End: Positive - Project succeeds.",
+            "choice_text_ar": "النهاية: إيجابية - المشروع ينجح.",
+            "next_node_id": "ending_positive"
+          }
+        ]
+      },
+      {
+        "node_id": "ending_positive",
+        "text_en": "Project Horizon is approved. Nina becomes partner in leading its rollout. Marcus sponsors key resources. Brandon contributes insights that increase its scope. The Board praises Ava’s collaborative style. Colleagues begin to seek her out. Ava, once socially awkward, feels not just seen—but respected. She has learned that influence is not force—but connection.",
+        "text_ar": "يُوافق على مشروع هورايزون. تُصبح نينا شريكة في قيادته عند إطلاقه. يرعى ماركوس مواردًا أساسية. يُضمّ اقتراح براندون الذي يثري المشروع. يمدح المجلس أسلوب آفا التشاركي. يبدأ الزملاء بطلب العمل معها. آفا، التي كانت محرجة اجتماعيًا، تشعر بأنها لا تُرى فحسب — بل تُحترم. لقد تعلمت أن التأثير ليس بالقوة — بل بالصلة.",
+        "image_url": "project_success.jpg"
+      },
+      {
+        "node_id": "ending_negative",
+        "text_en": "The Board votes no. Nina remains wary. Marcus distances himself. Brandon’s rumors circulate. Office chatter suggests arrogance more than leadership. Ava continues with data, but doors close. She realizes that her ambition without relationships is brittle—and lonely. Her project dies in silence.",
+        "text_ar": "يصوّت المجلس بلا. تظل نينا متشككة. يبتعد ماركوس. تنتشر شائعات براندون. همسات الزملاء تشير إلى أن آفا أكثر غرورًا من كونها قائدًا. تواصل في استخدام بياناتها، لكن الأبواب تُغلق. تدرك أن طموحها بدون علاقات هش — ووحيد. مشروعها يموت في صمت.",
+        "image_url": "project_failure.jpg"
+      }
+    ]
+  }
+  

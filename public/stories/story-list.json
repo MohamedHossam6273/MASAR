@@ -1,0 +1,12 @@
+{
+  "stories": [
+    {
+      "id": "lean_startup_quest",
+      "title": "The Lean Startup Quest",
+      "subtitle": "An entrepreneur's journey of building a business with the lean startup methodology.",
+      "cover_image_url": "https://picsum.photos/seed/lean-startup-cover/800/600",
+      "difficulty": "easy",
+      "learning_concepts": "MVP, Build-Measure-Learn, Pivot"
+    }
+  ]
+}
